@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page-vive</title>
+    <script type="module" crossorigin src="/page-vive/assets/index-bRp0QiK4.js"></script>
+    <link rel="stylesheet" crossorigin href="/page-vive/assets/index-B3Kbd-rP.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Load Tailwind via the Play CDN and inject a custom color -->
+    <script>
+      /* tailwind Play CDN config */
+      window.tailwind = window.tailwind || {}
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'vive-orange': '#f8663b',
+            },
+          },
+        },
+      }
+    </script>
+  </body>
+</html>
