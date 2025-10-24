@@ -1,0 +1,11 @@
+/* Using Tailwind via CDN — keep any small global styles here */
+html, body, #root {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	background: white;
+}
+
+/* You can add small global utilities here if needed */
